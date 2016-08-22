@@ -10,10 +10,10 @@
 		720DA6BF1D68E5C7002B1200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DA6BE1D68E5C7002B1200 /* AppDelegate.swift */; };
 		720DA6C11D68E5C7002B1200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DA6C01D68E5C7002B1200 /* ViewController.swift */; };
 		720DA6C41D68E5C7002B1200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720DA6C21D68E5C7002B1200 /* Main.storyboard */; };
-		720DA6C61D68E5C7002B1200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720DA6C51D68E5C7002B1200 /* Assets.xcassets */; };
 		720DA6C91D68E5C7002B1200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720DA6C71D68E5C7002B1200 /* LaunchScreen.storyboard */; };
 		720DA6D41D68E5C7002B1200 /* ProtoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DA6D31D68E5C7002B1200 /* ProtoUITests.swift */; };
 		720DA6DF1D68E5C7002B1200 /* ProtoUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DA6DE1D68E5C7002B1200 /* ProtoUIUITests.swift */; };
+		E54340651D6AB7F00056508A /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54340641D6AB7F00056508A /* asset.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		720DA6BE1D68E5C7002B1200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		720DA6C01D68E5C7002B1200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		720DA6C31D68E5C7002B1200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		720DA6C51D68E5C7002B1200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720DA6C81D68E5C7002B1200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		720DA6CA1D68E5C7002B1200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720DA6CF1D68E5C7002B1200 /* ProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		720DA6DA1D68E5C7002B1200 /* ProtoUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720DA6DE1D68E5C7002B1200 /* ProtoUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoUIUITests.swift; sourceTree = "<group>"; };
 		720DA6E01D68E5C7002B1200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54340641D6AB7F00056508A /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = asset.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 				720DA6BE1D68E5C7002B1200 /* AppDelegate.swift */,
 				720DA6C01D68E5C7002B1200 /* ViewController.swift */,
 				720DA6C21D68E5C7002B1200 /* Main.storyboard */,
-				720DA6C51D68E5C7002B1200 /* Assets.xcassets */,
 				720DA6C71D68E5C7002B1200 /* LaunchScreen.storyboard */,
 				720DA6CA1D68E5C7002B1200 /* Info.plist */,
+				E54340641D6AB7F00056508A /* asset.xcassets */,
 			);
 			path = ProtoUI;
 			sourceTree = "<group>";
@@ -230,8 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				720DA6C91D68E5C7002B1200 /* LaunchScreen.storyboard in Resources */,
-				720DA6C61D68E5C7002B1200 /* Assets.xcassets in Resources */,
 				720DA6C41D68E5C7002B1200 /* Main.storyboard in Resources */,
+				E54340651D6AB7F00056508A /* asset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +484,7 @@
 				720DA6E51D68E5C7002B1200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		720DA6E61D68E5C7002B1200 /* Build configuration list for PBXNativeTarget "ProtoUITests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				720DA6E81D68E5C7002B1200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		720DA6E91D68E5C7002B1200 /* Build configuration list for PBXNativeTarget "ProtoUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				720DA6EB1D68E5C7002B1200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
