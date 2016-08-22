@@ -1,6 +1,7 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "7c22f8a4fc3cbc3a08f2acfc4e71da2e"
-build_time: [525158436, 275729000]
+build_time: [525199236, 648272000]
 inputs:
-  "/Users/Celine/Desktop/seryung/ProtoUI/ViewController.swift": [525036231, 0]
+  "/Users/Celine/Desktop/seryung/ProtoUI/ViewController.swift": [525187485, 0]
   "/Users/Celine/Desktop/seryung/ProtoUI/AppDelegate.swift": [525036231, 0]
+  "/Users/Celine/Desktop/seryung/ProtoUI/EditViewController.swift": [525199236, 0]

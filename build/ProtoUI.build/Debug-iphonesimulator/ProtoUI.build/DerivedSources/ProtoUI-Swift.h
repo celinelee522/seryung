@@ -113,8 +113,33 @@ SWIFT_CLASS("_TtC7ProtoUI11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
+@class UIDatePicker;
+@class UITouch;
+@class UIEvent;
+@class UISegmentedControl;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7ProtoUI18EditViewController")
+@interface EditViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified cashOrCard;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified currency;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified costText;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified dateText;
+@property (nonatomic, weak) IBOutlet UITextField * _Nullable numPeopleText;
+- (IBAction)saveButton:(id _Nonnull)sender;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (void)datePickerChanged:(UIDatePicker * _Nonnull)sender;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
+- (void)closeKeyBoard;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC7ProtoUI14ViewController")
 @interface ViewController : UIViewController

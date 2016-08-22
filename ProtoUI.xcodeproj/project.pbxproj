@@ -13,6 +13,7 @@
 		720DA6C91D68E5C7002B1200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720DA6C71D68E5C7002B1200 /* LaunchScreen.storyboard */; };
 		720DA6D41D68E5C7002B1200 /* ProtoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DA6D31D68E5C7002B1200 /* ProtoUITests.swift */; };
 		720DA6DF1D68E5C7002B1200 /* ProtoUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DA6DE1D68E5C7002B1200 /* ProtoUIUITests.swift */; };
+		722B86471D6B349C00C9977D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B86461D6B349C00C9977D /* EditViewController.swift */; };
 		E54340651D6AB7F00056508A /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54340641D6AB7F00056508A /* asset.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		720DA6DA1D68E5C7002B1200 /* ProtoUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720DA6DE1D68E5C7002B1200 /* ProtoUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoUIUITests.swift; sourceTree = "<group>"; };
 		720DA6E01D68E5C7002B1200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722B86461D6B349C00C9977D /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		E54340641D6AB7F00056508A /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = asset.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 				720DA6BE1D68E5C7002B1200 /* AppDelegate.swift */,
 				720DA6C01D68E5C7002B1200 /* ViewController.swift */,
 				720DA6C21D68E5C7002B1200 /* Main.storyboard */,
+				722B86461D6B349C00C9977D /* EditViewController.swift */,
 				720DA6C71D68E5C7002B1200 /* LaunchScreen.storyboard */,
 				720DA6CA1D68E5C7002B1200 /* Info.plist */,
 				E54340641D6AB7F00056508A /* asset.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				720DA6C11D68E5C7002B1200 /* ViewController.swift in Sources */,
 				720DA6BF1D68E5C7002B1200 /* AppDelegate.swift in Sources */,
+				722B86471D6B349C00C9977D /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
